@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="headerText">
+            <h1>Calculator</h1>
+            </div>
+        </header>
+        <div class="masterContainer">
+            <div class="calcContainer">
+                <div class="outputContainer">
+                    <div class="previousBar">
+                        <p id="previousText"></p>
+                    </div>
+                    <div class="outputBar">
+                        <p id="outputText">0</p>
+                    </div>
+                </div>
+                <div class="btnContainer">
+                    <div class="btnRow1">
+                        <button onclick="calcClick(event)" id="btnAC" data-operator="clear">AC</button>
+                        <button onclick="calcClick(event)" id="btnNegative" data-negative="null">+/-</button>
+                        <button onclick="calcClick(event)" id="btnPercent" data-percent="null">%</button>
+                        <button onclick="calcClick(event)" id="btnDivide" data-operator="/">/</button>
+                    </div>
+                    <div class="btnRow2">
+                        <button onclick="calcClick(event)" id="btn7" data-num="7">7</button>
+                        <button onclick="calcClick(event)" id="btn8" data-num="8">8</button>
+                        <button onclick="calcClick(event)" id="btn9" data-num="9">9</button>
+                        <button onclick="calcClick(event)" id="btnMult" data-operator="*">*</button>
+                    </div>
+                    <div class="btnRow3">
+                        <button onclick="calcClick(event)" id="btn4" data-num="4">4</button>
+                        <button onclick="calcClick(event)" id="btn5" data-num="5">5</button>
+                        <button onclick="calcClick(event)" id="btn6" data-num="6">6</button>
+                        <button onclick="calcClick(event)" id="btnMinus" data-operator="-">-</button>
+                    </div>
+                    <div class="btnRow4">
+                        <button onclick="calcClick(event)" id="btn1" data-num="1">1</button>
+                        <button onclick="calcClick(event)" id="btn2" data-num="2">2</button>
+                        <button onclick="calcClick(event)" id="btn3" data-num="3">3</button>
+                        <button onclick="calcClick(event)" id="btnPlus" data-operator="+">+</button>
+                    </div>
+                    <div class="btnRow5">
+                        <button onclick="calcClick(event)" id="btn0" data-num="0">0</button>
+                        <button onclick="calcClick(event)" id="btnDot" data-num=".">.</button>
+                        <button onclick="calcClick(event)" id="btnEquals" data-operator="=">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

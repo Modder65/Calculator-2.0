@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: darkcyan;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.headerText {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: ghostwhite;
+    font-size: 48px;
+}
+
+.masterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.calcContainer {
+    width: 420px;
+    height: 535px;
+    border: 10px solid rgba(47,47,47,1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+    
+}
+
+.outputContainer {
+    display: flex;
+    width: 410px;
+    height: 110px;
+
+}
+
+.outputBar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 205px;
+    height: 100px;
+    background-color: #b2b9b7;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#outputText {
+    margin: 0;
+    margin-right: 10px;
+    font-size: 52px;
+}
+
+.previousBar {
+    display: flex;
+    justify-content: flex-start;
+    width: 205px;
+    height: 100px;
+    background-color: #b2b9b7;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#previousText {
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 32px;
+}
+
+.btnContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 420px;
+    height: 530px;
+    gap: 5px;
+}
+
+#btn0 {
+    border: none;
+    border-radius: 5px;
+    width: 204px;
+    height: 80px;
+    font-size: 24px;
+    background-color: #217C7E;
+}
+
+#btn1, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7, #btn8, #btn9, #btnDot {
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 80px;
+    font-size: 24px;
+    background-color: #217C7E;
+}
+
+#btnAC, #btnNegative, #btnPercent {
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 80px;
+    font-size: 24px;
+    background-color: dodgerblue;
+}
+
+#btnDivide, #btnMult, #btnMinus, #btnPlus, #btnEquals {
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 80px;
+    font-size: 24px;
+    background-color: #FF8F1F;
+}

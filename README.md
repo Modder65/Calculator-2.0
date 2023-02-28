@@ -1,0 +1,1 @@
+A revised and more efficient version of the previous calculator posted.
